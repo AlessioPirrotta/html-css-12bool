@@ -7,12 +7,20 @@ box-sizing: border-box;
 main{
     height: 100vh;
     background-color: black;
+    background-image: url(../img/201924392-foresta-di-fantasia-con-rocce-coperte-di-muschio-e-farfalle-volanti-rappresentazione-3d.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
+    
 }
 
 .container{
     height: 100vh;
-    background-color: white;
-    border: 1px red solid;
+    transition: all 20s ease;
+    overflow: hidden;
+   
+    
 }
 
 .row{
@@ -31,6 +39,11 @@ main{
 
 .black{
     background-color: black;
+}
+
+:hover .container{
+    transform: translateX(200px);
+
 }
 
 
