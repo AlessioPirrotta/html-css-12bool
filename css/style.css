@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    height: 100vh;
+    background-color: white;
+    border: 1px red solid;
+}
+
+.row{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dgreen{
+    background-color: #108b10;
+}
+
+.green{
+    background-color: #5aed2f;
+}
+
+.black{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
